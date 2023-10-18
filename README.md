@@ -1,7 +1,7 @@
 # suncorTaAssessment
 Technical test for Suncor, (DEVELOPMENT IN PROGRESS), There are still many assertions that need to be added.
 
-I was not informed that Suncor requested the suite to mainly be done in Javascript, so I'm adding the assertions in the readme just so they can understand what I was going to do.
+I was not relayed the info that Suncor requested the suite to mainly be done in Javascript, so I'm adding the assertions in the readme just so they can understand what I was going to do.
 
 Tests are based on these issues:
 - standard_user = No errors, and the flow goes well until checkout is finished.
