@@ -91,7 +91,7 @@ Assert "Login" button is visible.
 
 Close page.
 
-
+<br />
                   
 locked_out_user  - Navigate to page.
 
@@ -105,7 +105,8 @@ Assert that the login error prompt has shown with "Sorry, this user has been loc
 
 Close page.
 
-
+<br />
+<br />
                   
 problem_user  -  Navigate to page.
 
@@ -119,7 +120,7 @@ Assert that the shopping cart, left hamburger menu w/ 4 options, and product gri
 
 Assert default images are showing for all grid items, in this case, the pug "/static/media/sl-404.168b1cce.jpg"
 
-
+<br />
 
 performance_glitch_user - Since Selenium is not ideal for performance testing, the best we can do is assert the site didn't timeout. That can be done by checking if any element is visible after some time (here, 3 seconds).
                   
@@ -135,10 +136,12 @@ Driver waits for 3 seconds.
                   
 Assert that the shopping cart, left hamburger menu w/ 4 options, and product grid are all present on the page.
 
-
+<br />
+<br />
 
 Question 2:
 For the Suncor website's first landing page:
+<br />
 Navigate to https://www.suncor.com/en-ca/
 Assert Suncor "logo" is displayed.
 
