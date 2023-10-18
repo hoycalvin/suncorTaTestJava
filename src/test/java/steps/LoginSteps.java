@@ -4,10 +4,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class LoginSteps {
-    WebDriver driver = new ChromeDriver();
+    WebDriver driver = new EdgeDriver();
 
     @Given("User navigates to e-commerce site")
     public void navigateToPage(){
@@ -25,7 +25,7 @@ public class LoginSteps {
         System.out.println("User Login Button clicked");
     }
     public static void clickLoginSubmitButton(){
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new EdgeDriver();
         driver.findElement(By.id("//input[@id='login-button']")).click();
     }
 }
