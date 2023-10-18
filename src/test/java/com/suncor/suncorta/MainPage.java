@@ -3,10 +3,11 @@ package com.suncor.suncorta;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class MainPage {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webDriver.F.driver", "C:\\\\Users\\\\ADMIN\\\\Documents\\\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\hoyca\\IdeaProjects\\suncorTA\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+        Thread.sleep(5000);
         //question 1
 
         driver.quit();
