@@ -138,3 +138,49 @@ Assert that the shopping cart, left hamburger menu w/ 4 options, and product gri
 
 
 Question 2:
+For the Suncor website's first landing page:
+Navigate to https://www.suncor.com/en-ca/
+Assert Suncor "logo" is displayed.
+
+Assert "header__grid" is displayed.
+
+Assert header_grid contains "What we do", "Who we are", "Climate", "Sustainability", "News and stories", "Careers", and "Investors" String values.
+
+Assert "language-switcher__button" button is displayed.
+
+Click language switcher button. Assert both "English" and "French" String values are displayed.
+
+Assert "search-button__icon" button is displayed.
+
+Assert "masthead__content" is displayed.
+
+Assert "Read the Story" button is displayed.
+
+Assert "stock-summary__info" grid is displayed.
+
+Assert "Stock Information" button is displayed.
+
+Assert "visual-card-explorer__container" class is displayed.
+
+Assert "View All Stories" button is displayed.
+
+Assert "Explore Our Purpose and Strategy" button is displayed.
+
+Assert "overlap-photo-callout" is displayed.
+
+Assert "Read Darvi’s full story" button is displayed.
+
+Assert the "Did you know?" (card-explorer-carousel) cards is displayed.
+
+Assert "View All Facts" button is displayed.
+
+Assert "footer__grid" is displayed.
+
+Assert String values "Careers", "Investors", "Doing Business with Suncor" are in the footer list.
+
+Assert "social-footer" is displayed.
+
+Assert "footer__utility-navigation" is displayed.
+
+Assert "copyright" is displayed.
+
